@@ -74,7 +74,7 @@ app.delete('/games/:id', (req, res) =>
 )
 
 
-app.put(games, (req, res) => {
+app.put('/games', (req, res) => {
     res.send("Oh no")
 })
 
