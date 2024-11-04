@@ -58,7 +58,7 @@ res.status(201).location('localhost:8000/games/' + (games.lenght -1)).send(newGa
 
 //delete a game, where id is specified, if game is not found,
 //returns statuscode 4
-
+//d
 
 app.delete('/games/:id', (req, res) =>
 {
